@@ -11,6 +11,7 @@ lspconfig.servers = {
   "html",
   "cssls",
   "tsserver",
+  "eslint"
 }
 
 -- List of servers configured with default config
@@ -18,6 +19,7 @@ local default_servers = {
   "html",
   "cssls",
   "tsserver",
+  "eslint"
 }
 
 -- Setup servers with default config
@@ -31,3 +33,4 @@ end
 
 -- Enable servers
 vim.lsp.enable(lspconfig.servers)
+
