@@ -40,6 +40,9 @@ M.mason = {
     "marksman",
     "yamllint",
     "vale",
+    "bash-language-server",
+    "shellcheck",
+    "shfmt",
   },
 }
 

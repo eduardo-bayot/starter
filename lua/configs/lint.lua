@@ -10,4 +10,6 @@ require("lint").linters_by_ft = {
   json5 = { "eslint_d" },
   yaml = { "yamllint", "ansible-lint" },
   markdown = { "vale" },
+  sh = { "shellcheck" },
+  bash = { "shellcheck" },
 }

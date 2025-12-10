@@ -10,6 +10,8 @@ local options = {
     json5 = { "prettier" },
     yaml = { "prettier" },
     markdown = { "prettier" },
+    sh = { "shfmt" },
+    bash = { "shfmt" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },

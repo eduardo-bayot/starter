@@ -18,6 +18,7 @@ lspconfig.servers = {
   "jsonls",
   "yamlls",
   "marksman",
+  "bashls",
 }
 
 -- List of servers configured with default config
@@ -32,6 +33,7 @@ local default_servers = {
   "jsonls",
   "yamlls",
   "marksman",
+  "bashls",
 }
 
 -- Setup servers with default config
