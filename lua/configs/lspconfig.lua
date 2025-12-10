@@ -13,6 +13,7 @@ lspconfig.servers = {
   "tsserver",
   "eslint",
   "pyright",
+  "terraformls",
 }
 
 -- List of servers configured with default config
@@ -21,7 +22,8 @@ local default_servers = {
   "cssls",
   "tsserver",
   "eslint",
-  -- "pyright",
+  "terraformls",
+  "pyright",
 }
 
 -- Setup servers with default config
@@ -35,4 +37,3 @@ end
 
 -- Enable servers
 vim.lsp.enable(lspconfig.servers)
-

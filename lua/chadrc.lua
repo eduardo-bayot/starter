@@ -30,6 +30,8 @@ M.mason = {
     "js-debug-adapter",
     "pyright",
     "debugpy",
+    "terraform-ls",
+    "tflint",
   },
 }
 
