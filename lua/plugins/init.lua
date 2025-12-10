@@ -39,12 +39,7 @@ return {
     "mfussenegger/nvim-lint",
     event = "BufWritePost", -- Lint on save
     config = function()
-      require("lint").linters_by_ft = {
-        -- Example for JavaScript using eslint_d
-        javascript = { "eslint_d" },
-        typescript = { "eslint_d" },
-        lua = { "luacheck" },
-      }
+      require("configs.lint")
     end,
   },
   {
@@ -57,7 +52,10 @@ return {
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
-    dependencies = "mfussenegger/nvim-dap",
+    dependencies = {
+      "mfussenegger/nvim-dap",
+      "nvim-neotest/nvim-nio",
+    },
     config = function()
       local dap = require "dap"
       local dapui = require "dapui"
@@ -73,4 +71,15 @@ return {
       end
     end,
   },
+  {
+        "mfussenegger/nvim-dap-python",
+        ft = "python",
+        dependencies = {
+            "mfussenegger/nvim-dap",
+            "rcarriga/nvim-dap-ui",
+        },
+        config = function()
+            require("configs.dap-python")
+        end,
+    },
 }
