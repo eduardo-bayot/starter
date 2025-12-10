@@ -19,6 +19,7 @@ lspconfig.servers = {
   "yamlls",
   "marksman",
   "bashls",
+  "jinja_lsp",
 }
 
 -- List of servers configured with default config
@@ -34,6 +35,7 @@ local default_servers = {
   "yamlls",
   "marksman",
   "bashls",
+  "jinja_lsp",
 }
 
 -- Setup servers with default config

@@ -12,6 +12,8 @@ local options = {
     markdown = { "prettier" },
     sh = { "shfmt" },
     bash = { "shfmt" },
+    jinja = { "djlint" },
+    jinja2 = { "djlint" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },

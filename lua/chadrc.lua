@@ -43,6 +43,8 @@ M.mason = {
     "bash-language-server",
     "shellcheck",
     "shfmt",
+    "jinja-lsp",
+    "djlint",
   },
 }
 

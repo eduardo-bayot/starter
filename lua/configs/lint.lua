@@ -12,4 +12,6 @@ require("lint").linters_by_ft = {
   markdown = { "vale" },
   sh = { "shellcheck" },
   bash = { "shellcheck" },
+  jinja = { "ansible-lint" },
+  jinja2 = { "ansible-lint" },
 }
