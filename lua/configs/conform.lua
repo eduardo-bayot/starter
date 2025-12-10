@@ -6,6 +6,7 @@ local options = {
     python = { "black" },
     terraform = { "terraform_fmt" },
     hcl = { "terraform_fmt" },
+    yaml = { "prettier" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },

@@ -32,6 +32,9 @@ M.mason = {
     "debugpy",
     "terraform-ls",
     "tflint",
+    "ansible-language-server",
+    "ansible-lint",
+    "prettier",
   },
 }
 

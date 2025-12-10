@@ -14,6 +14,7 @@ lspconfig.servers = {
   "eslint",
   "pyright",
   "terraformls",
+  "ansiblels",
 }
 
 -- List of servers configured with default config
@@ -24,6 +25,7 @@ local default_servers = {
   "eslint",
   "terraformls",
   "pyright",
+  "ansiblels",
 }
 
 -- Setup servers with default config

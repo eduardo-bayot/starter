@@ -6,4 +6,5 @@ require("lint").linters_by_ft = {
   python = { "mypy", "ruff" },
   terraform = { "tflint" },
   hcl = { "tflint" },
+  yaml = { "ansible-lint" },
 }
