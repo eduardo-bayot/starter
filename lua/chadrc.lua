@@ -35,6 +35,11 @@ M.mason = {
     "ansible-language-server",
     "ansible-lint",
     "prettier",
+    "json-lsp",
+    "yaml-language-server",
+    "marksman",
+    "yamllint",
+    "vale",
   },
 }
 

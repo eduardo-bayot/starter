@@ -15,6 +15,9 @@ lspconfig.servers = {
   "pyright",
   "terraformls",
   "ansiblels",
+  "jsonls",
+  "yamlls",
+  "marksman",
 }
 
 -- List of servers configured with default config
@@ -26,6 +29,9 @@ local default_servers = {
   "terraformls",
   "pyright",
   "ansiblels",
+  "jsonls",
+  "yamlls",
+  "marksman",
 }
 
 -- Setup servers with default config
