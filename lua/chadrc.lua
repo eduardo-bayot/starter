@@ -28,6 +28,8 @@ M.mason = {
     "eslint-lsp",
     "prettierd",
     "js-debug-adapter",
+    "pyright",
+    "debugpy",
   },
 }
 

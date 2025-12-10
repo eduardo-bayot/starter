@@ -3,6 +3,7 @@ local options = {
     lua = { "stylua" },
     javascript = { "eslint_d", "prettierd", "prettier" }, -- Use ESLint (or Prettier) for JS
     typescript = { "eslint_d", "prettierd", "prettier" }, -- Use ESLint (or Prettier) for TS
+    python = { "black"}
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
@@ -15,4 +16,5 @@ local options = {
 }
 
 return options
+
 
