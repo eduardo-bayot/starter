@@ -3,7 +3,17 @@ local options = {
     lua = { "stylua" },
     javascript = { "eslint_d", "prettierd", "prettier" }, -- Use ESLint (or Prettier) for JS
     typescript = { "eslint_d", "prettierd", "prettier" }, -- Use ESLint (or Prettier) for TS
-    python = { "black"}
+    python = { "black" },
+    terraform = { "terraform_fmt" },
+    hcl = { "terraform_fmt" },
+    json = { "prettier" },
+    json5 = { "prettier" },
+    yaml = { "prettier" },
+    markdown = { "prettier" },
+    sh = { "shfmt" },
+    bash = { "shfmt" },
+    jinja = { "djlint" },
+    jinja2 = { "djlint" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
@@ -16,5 +26,6 @@ local options = {
 }
 
 return options
+
 
 
